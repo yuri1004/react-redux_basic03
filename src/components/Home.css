@@ -1,0 +1,43 @@
+.boxHome{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxHome>figure{
+    width: calc(25% - 1em);
+    padding: 10px;
+    margin: 0 0 1em;
+    border: 3px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+}
+.boxHome>figure>img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.boxHome>figure>figcaption{}
+.boxHome>figure dl{
+    text-align: center;
+}
+.boxHome>figure dt{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.boxHome>figure dd:nth-child(2){
+    margin-bottom: 5px;
+    color: #800909;
+}
+.boxHome>figure dd>button{
+    border: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+.boxHome>figure dd>button.plus{
+    background-color: green;
+}
+.boxHome>figure dd>button.del{
+    background-color: #333;
+}

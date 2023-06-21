@@ -1,0 +1,70 @@
+h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+}
+.boxCart{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxCart>figure{
+    width: calc(25% - 1em);
+    margin: 0 0 1em;
+    padding: 10px;
+    border: 3px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+}
+.boxCart>figure>img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.boxCart>figure dl{
+    text-align: center;
+}
+.boxCart>figure dl>dt{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.boxCart>figure dl>dd:nth-child(2){
+    margin-bottom: 15px;
+}
+.boxCart>figure dl>dd>button{
+    border: none;
+    color: #fff;
+    padding: 5px 20px;
+    background-color: #333;
+}
+
+
+footer{
+    width: 1200px;
+    margin: 0 auto 35px;
+    text-align: center;
+    font-size: 24px;
+    border: 3px solid #ddd;
+    padding: 20px 0;
+}
+footer>p{
+    margin-bottom: 25px;
+}
+footer>p>button{
+    border: none;
+    padding: 5px 30px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.2em;
+}
+footer>div{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+    border: 2px solid #e2e2e2;
+}
