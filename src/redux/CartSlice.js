@@ -7,7 +7,7 @@ const cartSlice = createSlice({
     },
     reducers:{
         addToCart(state,action){
-            state.cartSliceIds = [action.payload,...state.cartProductIds];
+            state.cartProductIds = [action.payload,...state.cartProductIds];
         },
         removeFromCart(state,action){
             const indexOfId = state.cartProductIds.indexOf(action.payload);
